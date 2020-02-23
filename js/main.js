@@ -14,7 +14,7 @@ function clearElement(element) {
 
 search.addEventListener('click', () => {
   clearElement(cardResult)
-  const base_url = `http://api.openweathermap.org/data/2.5/weather?q=${city.value}&appid=${apiKey}&units=metric`
+  const base_url = `https://api.openweathermap.org/data/2.5/weather?q=${city.value}&appid=${apiKey}&units=metric`
   fetch(base_url)
   .then(response => response.json())
   .then(data => {
