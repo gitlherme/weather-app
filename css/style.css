@@ -52,7 +52,7 @@ main {
   opacity: 1;
 }
 
-.card-result {
+.card-result .card-content{
   display: flex;
   border: none;
   background-color: crimson;
